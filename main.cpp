@@ -23,17 +23,17 @@ int main()
 	setlocale(LC_ALL, ""); // Подключаем русский язык
 	std::string str;
 
-	int K;
+	int k;
 
-	std::cout << "Введите вашу строку" << std::endl;
+	std::cout << "Введите вашу строку:" << std::endl;
 
 	std::cin >> str;
 
-	std::cout << "Введите К для проверки строки" << std::endl;
+	std::cout << "Введите К для проверки кратности строки:" << std::endl;
 
-	std::cin >> K;
+	std::cin >> k;
 
-	IsKPeriodic(str, K); // Вывод, кратна строка или не кратна.
+	IsKPeriodic(str, k); // Вывод, кратна строка или не кратна.
 	
 	return 0;
 }

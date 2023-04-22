@@ -20,7 +20,7 @@ int IsKPeriodic(const std::string& str, int K)
 
 int main()
 {
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, ""); // Подключаем русский язык
 	std::string str;
 
 	int K;

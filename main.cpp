@@ -8,11 +8,11 @@ int IsKPeriodic(const std::string& str, int k)
 	{
 		if (str[i] == str[i + k])
 		{
-			std::cout << "Строка кратна К" << std::endl;
+			std::cout << "Строка кратна К." << std::endl;
 			return true;
 		}
 		else {
-			std::cout << "Строка не кратна К" << std::endl;
+			std::cout << "Строка не кратна К." << std::endl;
 			return false;
 		}
 	}

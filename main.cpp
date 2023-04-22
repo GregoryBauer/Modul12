@@ -2,11 +2,11 @@
 #include <string>
 #include <string.h>
 
-int IsKPeriodic(const std::string& str, int K)
+int IsKPeriodic(const std::string& str, int k)
 {
-	for (int i = 0; str.length() - K; i++)
+	for (int i = 0; str.length() - k; i++)
 	{
-		if (str[i] == str[i + K])
+		if (str[i] == str[i + k])
 		{
 			std::cout << "Строка кратна К" << std::endl;
 			return true;
